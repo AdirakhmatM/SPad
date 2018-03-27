@@ -12,5 +12,11 @@ package Praktek1ad;
 public class SoundAct {
     public static void main(String[] args){
        Soundspeaker Gedung = new Soundspeaker(); 
+       
+       Gedung.merk="Blaster X";
+       Gedung.harga=1.150 ;
+       Gedung.type="Portable";
+       Gedung.jenis="Full Range";
+       Gedung.kualitas="Terbaik";
     }            
 }
