@@ -11,7 +11,9 @@ package Praktek1ad;
  */
 public class SoundAct {
     public static void main(String[] args){
-       Soundspeaker Gedung = new Soundspeaker(); 
+       Soundspeaker Gedung = new Soundspeaker();
+       Soundspeaker Rumah = new Soundspeaker();
+       Soundspeaker Kamar = new Soundspeaker();
        
        Gedung.merk="Blaster X";
        Gedung.harga=1.150 ;
@@ -19,6 +21,20 @@ public class SoundAct {
        Gedung.jenis="Full Range";
        Gedung.kualitas="Terbaik";
        
+       Rumah.merk="Sanken";
+       Rumah.harga=770;
+       Rumah.type="Portable";
+       Rumah.jenis="Mid Range";
+       Rumah.kualitas="Lumayan";
+       
+       Kamar.merk="Logitech";
+       Kamar.harga=500 ;
+       Kamar.type="Bluetooth";
+       Kamar.jenis="Woofer";
+       Kamar.kualitas="Terbaik The Best";
+       
        Gedung.listensound();
+       Rumah.listensound();
+       Kamar.listensound();
     }            
 }
