@@ -11,6 +11,6 @@ package Praktek1ad;
  */
 public class SoundAct {
     public static void main(String[] args){
-        
+       Soundspeaker Gedung = new Soundspeaker(); 
     }            
 }
