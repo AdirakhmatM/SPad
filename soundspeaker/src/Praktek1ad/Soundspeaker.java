@@ -17,10 +17,10 @@ public class Soundspeaker {
     String kualitas;
     
     void listensound(){
-    system.out.println("Merk :"+merk);
-    system.out.println("Harga :"+harga);
-    system.out.println("Type :"+type);
-    system.out.println("Jenis :"+jenis);
-    system.out.println("Kualitas :"+kualitas);
+    System.out.println("Merk :"+merk);
+    System.out.println("Harga :"+harga);
+    System.out.println("Type :"+type);
+    System.out.println("Jenis :"+jenis);
+    System.out.println("Kualitas :"+kualitas);
     }
 }
