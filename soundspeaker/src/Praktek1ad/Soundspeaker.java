@@ -11,7 +11,7 @@ package Praktek1ad;
  */
 public class Soundspeaker {
     String merk;
-    String harga;
+    double harga;
     String type;
     String jenis;
     String kualitas;
