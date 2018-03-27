@@ -18,5 +18,7 @@ public class SoundAct {
        Gedung.type="Portable";
        Gedung.jenis="Full Range";
        Gedung.kualitas="Terbaik";
+       
+       Gedung.listensound();
     }            
 }
